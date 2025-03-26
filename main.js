@@ -4,7 +4,9 @@ positionDollarsign = input.indexOf("$");
 
 input = input.slice(positionDollarsign + 1);
 
-input = parseInt(input);
+// input = parseInt(input);
+
+input = parseFloat(input);
 
 input = input * 0.9;
 
